@@ -54,6 +54,14 @@ If you know of any falsehoods that are not included below, you're very much enco
 
     Counter-example: Most long-distance connections have lines that don't have an explicit name. There are high speed trains going from Berlin to Munich every hour, which can be seen as one line, but that line doesn't really have a name passengers would clearly identify it with.
 
+9. **Official [station](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#station) names are unique in their local transit system.**
+
+    Counter-example: Singapore's bus services [57 (direction 2)](https://www.transitlink.com.sg/eservice/eguide/service_route.php?service=57) and [317](https://www.transitlink.com.sg/eservice/eguide/service_route.php?service=317), which both stop at [station](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#station)s named "Opp Blk 1", referring to completely separate _appartment blocks_ with the number _1_.
+
+10. **The geographical path of a [route](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#route) never self-intersects.**
+
+    Counter-example: [Singapore's Downtown Line](https://en.wikipedia.org/wiki/Downtown_MRT_line), which also doesn't have a [station](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#station) at the location where it self-intersects.
+
 0. *probably many more falsehoods waiting to be added here…*
 
 ## Contributing
