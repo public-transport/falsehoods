@@ -30,7 +30,6 @@ If you know of any falsehoods that are not included below, you're very much enco
 
     Counter-example: [Berlin's *Naturkundemuseum* station](https://www.bvg.de/de/standortplan/900100009) where trams stop at two [stop](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#stop)s on the same street corner - that belong to the same [station](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#station) and have the same name - consecutively.
 
-
 3. **Vehicles never change their direction sign/headsign in the middle of a trip.**
 
     Counter-example: Changing the headsign is quite common in trips that run via some important hub in a city, e.g. on a line with route `A → Main station → B`, the headsign will often be `Main station` on the first part and `B` on the second part of the trip.
@@ -51,7 +50,7 @@ If you know of any falsehoods that are not included below, you're very much enco
 
     Counter-example: [London's tube lines](https://en.wikipedia.org/wiki/London_Underground#Lines)
 
-7. **OKAY, a [line](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#line) always has some clearly defined name.**
+8. **OKAY, a [line](https://github.com/public-transport/friendly-public-transport-format/blob/master/spec/readme.md#line) always has some clearly defined name.**
 
     Counter-example: Most long-distance connections have lines that don't have an explicit name. There are high speed trains going from Berlin to Munich every hour, which can be seen as one line, but that line doesn't really have a name passengers would clearly identify it with.
 
